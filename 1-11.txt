@@ -1,0 +1,3 @@
+How would you test the word count program? What kinds of input are most likely to uncover bugs if there are any?
+
+For valid input there would be an EOF and a mixture of spaces, tabs and newlines, or possibly none at all. Other unicode characters could cause errors if getchar() doesn't properly handle them.
