@@ -1,7 +1,7 @@
+/* Program that copies input to output and replaces all spaces with a singular space */
 #include <stdio.h>
-/* Write a program to copy its input to its output, replacing each string of one or more blanks by a single blank */
 
-main() {
+int main() {
 	int c, flag;
 	flag = 0;
 	while ((c = getchar()) != EOF) {

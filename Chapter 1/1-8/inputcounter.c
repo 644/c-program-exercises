@@ -1,7 +1,7 @@
+/* Program that counts blanks, tabs and newlines in input */
 #include <stdio.h>
-/* Write a program to count blanks, tabs and newlines */
 
-main() {
+int main() {
 	int c, bl, tb, nl;
 	
 	bl = 0;

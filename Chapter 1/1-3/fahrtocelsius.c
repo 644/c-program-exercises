@@ -1,7 +1,7 @@
+/* Table that shows celsius and fahrenheit conversions */
 #include <stdio.h>
-/* Add header to the table */
 
-main() {
+int main() {
 	float fahr, celsius;
 	int lower, upper, step;
 

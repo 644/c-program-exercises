@@ -1,7 +1,7 @@
+/* Program that hardcodes the output from Exercise 1-3 */
 #include <stdio.h>
-/* Write a program to print the corresponding table from 1-3.c */
 
-main() {
+int main() {
 	printf("fahr	celsius\n");
 	printf("   0   -17.8\n");
 	printf("  20    -6.7\n");

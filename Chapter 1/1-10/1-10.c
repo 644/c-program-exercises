@@ -1,7 +1,7 @@
+/* Program that replaces tabs with \t, backspaces with \b and backslashes with \\ */
 #include <stdio.h>
-/* Write a program to change tabs to \t, backspaces to \b and backslashes to \\ */
 
-main() {
+int main() {
 	int c;
 	while ((c = getchar()) != EOF) {
 		if (c == '\t') {

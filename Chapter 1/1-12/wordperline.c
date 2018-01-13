@@ -1,7 +1,7 @@
-#include <stdio.h>
 /* Program that prints its input one word per line */
+#include <stdio.h>
 
-main() {
+int main() {
 	int c;
 	while ((c = getchar()) != EOF) {
 		if (c == ' ' || c == '\n' || c == '\t') {
